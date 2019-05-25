@@ -1,9 +1,10 @@
-class Produkt(Name, Inhaltsstoffe, Nährwerte, Verpackung, Herkunftsort, Herstellungsbedingungen):
-    self.Inhaltsstoffe = Inhaltsstoffe #Liste
-    self.Nährwerte = Nährwerte #Liste, pro 100 Gramm, [Brennwert in kj, Fett g, Kohlenhydrate g, Zucker g, Eiweiß g, Salz g]
-    self.Verpackung = Verpackung # 0 = Plastik, 1 = Papier
-    self.Herkunftsort = Herkunftsort #nach Entfernung
-    self.Herstellungsbedingungen = Herstellungsbedingungen #Info über Firma insgesamt, 0 (schlecht) bis 5 (gut)
+class Produkt():
+    def __init__(self, Name, Inhaltsstoffe, Nährwerte, Verpackung, Herkunftsort, Herstellungsbedingungen, reusable = False):
+        self.Inhaltsstoffe = Inhaltsstoffe #Liste
+        self.Nährwerte = Nährwerte #Liste, pro 100 Gramm, [Brennwert in kj, Fett g, Kohlenhydrate g, Zucker g, Eiweiß g, Salz g]
+        self.Verpackung = Verpackung # Plastik oder Papier
+        self.Herkunftsort = Herkunftsort #nach Entfernung
+        self.Herstellungsbedingungen = Herstellungsbedingungen #Info über Firma insgesamt, 0 (schlecht) bis 5 (gut)
 
 #Bio und Fairtrade
 
@@ -18,7 +19,7 @@ def Gesundheit(Produkt):
 def Umwelt(Produkt):
     #Herkunftsort, selbes Land ist gut
     if Land_des_Einkäufers == Produkt.Herkunftsort:
-        
+
 
 def Ethik(Produkt):
-    return Produkt.Herstellungsbedingungen
+    return Produkt.Herstellungsbedingungen #
