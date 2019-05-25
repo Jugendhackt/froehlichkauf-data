@@ -1,0 +1,11 @@
+{
+	"name": "Produktname",
+	"supplier": "Hersteller",
+	"country": "de",
+	"code": "Barcode-Nummer",
+	"contents": [],
+	"nutritional": {},
+	"reusable": false,
+	"packaging": "plastic",
+	"description": "Beschreibung!"
+}
