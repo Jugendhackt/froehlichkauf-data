@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
 	"name": "Color-Rado",
 	"supplier": "Haribo",
@@ -25,43 +24,9 @@
 		"sugar":0.55,
 		"lipides":0.022,
 		"proteins":0.043,
-		"salt":0.00026,
+		"salt":0.00026
 	},
 	"reusable": false,
 	"packaging": "plastic",
 	"description": ""
 }
-=======
-{
-	"name": "Color-Rado",
-	"supplier": "Haribo",
-	"country": "de",
-	"code": "4001686721445",
-	"contents": [
-		"Glukosesirup",
-		"Zucker",
-		"Gelatine",
-		"Weizenmehl",
-		"Milchzucker",
-		"Palmfett",
-		"Süßholzextrankt",
-		"Citronensäure",
-		"Fruchtsaft",
-		"Kochsalz",
-		"Agar-Agar",
-		"Bienenwachs",
-		"Canaubawachs",
-		"Talkum"],
-	"nutritional": {
-		"calories":358,
-		"glucides":0.79,
-		"sugar":0.55,
-		"lipides":0.022,
-		"proteins":0.043,
-		"salt":0.00026,
-	},
-	"reusable": false,
-	"packaging": "plastic",
-	"description": ""
-}
->>>>>>> 06ca194948efaac1a2ebdeeddbff8fb229a30583

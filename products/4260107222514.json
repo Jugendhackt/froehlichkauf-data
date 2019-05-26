@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
 	"name": "Bio-Apfelschorle",
 	"supplier": "Fritz-Spritz",
@@ -16,22 +15,3 @@
 	"packaging": "glas",
 	"description": "Bio"
 }
-=======
-{
-	"name": "Bio-Apfelschorle",
-	"supplier": "Fritz-Spritz",
-	"country": "de",
-	"code": "4260107222514",
-	"contents": [
-		"Apfelsaft",
-		"Mineralwasser",
-		"Kohlensäure"],
-	"nutritional": {
-		"calories":28,
-		"glucides":0.071,
-		"sugar":0.066},
-	"reusable": false,
-	"packaging": "glas",
-	"description": "Bio"
-}
->>>>>>> 06ca194948efaac1a2ebdeeddbff8fb229a30583
